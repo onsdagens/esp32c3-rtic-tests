@@ -30,8 +30,10 @@ rtt-target = { git = 'https://github.com/perlindgren/rtt-target', branch='panic-
 esp-riscv-rt = {git = 'https://github.com/onsdagens/esp-riscv-rt', branch='scaled_back'}
 #esp-hal-common = {path = '/home/pawel/esp-hal/esp-hal-common'}
 #esp32c3-hal = {path = '/home/pawel/esp-hal/esp32c3-hal'}
-rtic = {path = '/home/pawel/rtic/rtic'}
-rtic-sync = {path = '/home/pawel/rtic/rtic-sync'}
+#rtic = {path = '/home/pawel/rtic/rtic'}
+#rtic-sync = {path = '/home/pawel/rtic/rtic-sync'}
+rtic = {git = 'https://github.com/onsdagens/rtic', branch='riscv_refactor'}
+rtic-sync = {git = 'https://github.com/onsdagens/rtic', branch='riscv_refactor'}
 esp32c3-hal = {git = 'https://github.com/onsdagens/esp-hal', branch='scaled_back'}
 esp-hal-common = {git = 'https://github.com/onsdagens/esp-hal', branch='scaled_back'}
 
