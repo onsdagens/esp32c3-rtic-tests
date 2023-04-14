@@ -8,7 +8,7 @@
 #![feature(type_alias_impl_trait)]
 
 
-#[rtic::app(device = esp32c3, dispatchers = [FROM_CPU_INTR1])]
+#[rtic::app(device = esp32c3, dispatchers = [FROM_CPU_INTR0])]
 mod app {
     use panic_rtt_target as _;
     use rtt_target::{rtt_init_print, rprintln};
